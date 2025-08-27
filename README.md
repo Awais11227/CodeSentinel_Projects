@@ -1,69 +1,98 @@
-"""
-# 📝 To-Do List App (Python + Tkinter)
+# CodeSentinel - 
+#     `Python GUI and Utility Projects`
 
-A simple and colorful **To-Do List App** built with **Python** and **Tkinter**.  
-This app lets you add, view, and remove tasks with an easy-to-use graphical interface.  
-Your tasks are stored in a local `tasks.json` file, so they stay saved even after closing the app.
+This repository by **CodeSentinel** contains a collection of Python projects focused on GUI interfaces, dashboards, and utility applications. Each project demonstrates practical use of Python libraries such as `tkinter`, `pandas`, `matplotlib`, and `json` for interactive and functional applications.
 
-------------------------------------------------------------
-📌 Features
-------------------------------------------------------------
-- ➕ Add Tasks – Quickly add any task to your list.  
-- 📋 View Tasks – See all your current tasks in a list.  
-- ❌ Remove Tasks – Delete tasks you no longer need.  
-- 💾 Persistent Storage – Tasks are saved in a `tasks.json` file.  
-- 🎨 Colorful UI – Light, simple, and clean Tkinter design.  
-- 🔘 Exit Button – Close the app with one click.
-
+---
 ------------------------------------------------------------
 🖼️ Preview
 ------------------------------------------------------------
 <img width="700" height="722" alt="image" src="https://github.com/user-attachments/assets/eeb26537-7ccd-4be2-8e55-ba278eae41fc" />
 
 ------------------------------------------------------------
-🛠️ Installation & Setup
-------------------------------------------------------------
-1️⃣ Clone the Repository:
-    git clone https://github.com/your-username/todo-list-gui.git
-    cd todo-list-gui
+## 📂 Project Files Overview
 
-2️⃣ Install Python:
-    Make sure Python 3.x is installed.
-    Check version:
-        python --version
 
-3️⃣ Run the App:
-    python todo_list_gui.py
+1. **Temperature Converter(1).ipynb**  
+   Simple GUI-based tool to convert temperatures between Celsius, Fahrenheit, and Kelvin.
 
-------------------------------------------------------------
-📂 Project Structure
-------------------------------------------------------------
-todo-list-gui/
-│
-├── todo_list_gui.py   # Main application code
-├── tasks.json         # Saved tasks (created automatically)
-├── README.md          # Project description
-└── screenshot.png     # App screenshot (optional)
+2. **Task1_GUI_Interface.ipynb**  
+   Introduction to GUI interfaces in Python. Includes simple widgets and event handling.
 
-------------------------------------------------------------
-🧠 How It Works
-------------------------------------------------------------
-1. Adding a Task – Type your task in the input box and click "Add Task".  
-2. Viewing Tasks – All tasks are displayed in a listbox.  
-3. Removing a Task – Select a task from the list and click "Remove Task".  
-4. Saving Tasks – All changes are stored in `tasks.json` automatically.
+3. **Simple Contact Book(2).ipynb**  
+   A basic contact management system with GUI for adding, viewing, and deleting contacts.
 
-------------------------------------------------------------
-🚀 Future Improvements
-------------------------------------------------------------
-- Edit existing tasks  
-- Add due dates & priorities  
-- Dark mode theme  
-- Sort tasks by date or priority  
+3. **Task 2_GUI_Interface.ipynb**  
+   Advanced GUI project for contact management, saving data to a `.txt` file.  
+   - File: `contacts(Task2 File saved).txt` stores contact data.
 
-------------------------------------------------------------
-📜 License
-------------------------------------------------------------
-This project is open-source under the MIT License.  
-You can freely use, modify, and distribute it.
-"""
+4. **To-Do List with JSON Storage(3).ipynb**  
+   Task management application using a GUI and JSON storage for persistence.  
+   - File: `tasks.json` stores the tasks data
+
+5. **Task_3_GUI_Interface.ipynb**  
+   GUI project demonstrating multiple widgets and layout management in Python.
+
+6. **Task_5_Weather_Dashboard.ipynb**  
+   Interactive weather dashboard showing temperature, humidity, and forecasts.  
+   - Real-time data visualization using Python libraries.
+
+
+
+
+
+---
+
+## 📌 Features
+
+- Interactive GUI applications for real-life use cases
+- Data storage using `.txt` and `.json` formats
+- Dashboard visualization for weather data
+- Clean and modular Python code for easy learning and reuse
+
+---
+
+## 🛠 Technologies Used
+
+- Python 3.x  
+- Tkinter for GUI  
+- Pandas and Matplotlib for data handling and visualization  
+- JSON for persistent storage  
+
+---
+
+## 👤 Author
+
+**Awais Manzoor**  
+
+Python enthusiast focused on building practical GUI tools and dashboards under **CodeSentinel**.
+
+---
+
+## 📄 How to Use
+
+1. Open the `.ipynb` file in Jupyter Notebook or VS Code.  
+2. Run each cell sequentially to interact with the application.  
+3. For contact or task-related apps, ensure the respective `.txt` or `.json` file exists in the same folder.  
+
+---
+
+# Folder Structure for CodeSentinel Projects
+#
+# CodeSentinel/
+# ├── README.md
+# ├── Task1/
+# │   ├── Task1_GUI_Interface.ipynb
+# ├── Task2/
+# │   ├── Task 2_GUI_Interface.ipynb
+# │   └── contacts(Task2 File saved).txt
+# ├── Task3/
+# │   ├── Task_3_GUI_Interface.ipynb
+# ├── Task4/
+# │   ├── Simple Contact Book(2).ipynb
+# ├── Task5/
+# │   ├── Task_5_Weather_Dashboard.ipynb
+# ├── Utilities/
+# │   ├── Temperature Converter(1).ipynb
+# │   └── To-Do List with JSON Storage(3).ipynb
+# │   └── tasks.json
