@@ -1,5 +1,5 @@
 # CodeSentinel - 
-#     `Python GUI and Utility Projects`.
+#     `Python GUI and Utility Projects`
 
 This repository by **CodeSentinel** contains a collection of Python projects focused on GUI interfaces, dashboards, and utility applications. Each project demonstrates practical use of Python libraries such as `tkinter`, `pandas`, `matplotlib`, and `json` for interactive and functional applications.
 
